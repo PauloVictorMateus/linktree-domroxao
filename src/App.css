@@ -1,0 +1,78 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #4B2E83; /* Cor roxa açaí para o fundo */
+  background-image: url('./assets/background.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 2em;
+  font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+  font-size: 1em;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.linktree-container {
+  min-width: 300px;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f5f2f7; /* Cor clara com um toque acinzentado */
+  padding: 20px;
+  border-radius: 15px; /* Bordas arredondadas */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.header .logo {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.header h1 {
+  font-size: 1.8em;
+  color: #3b2145; /* Cor mais escura para o título */
+}
+
+.header p {
+  color: #775a87; /* Roxo claro para o subtítulo */
+}
+
+.links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  background-color: #823d8b; /* Roxo para os botões */
+  border-radius: 8px;
+  font-size: 1.1em;
+  transition: background-color 0.3s;
+}
+
+.links a .icon {
+  margin-right: 8px;
+}
+
+.links a:hover {
+  background-color: #66296b; /* Roxo mais escuro para hover */
+}
