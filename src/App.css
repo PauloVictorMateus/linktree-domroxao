@@ -4,25 +4,29 @@ body {
   background-image: url('./assets/background.svg');
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
   font-size: 2em;
   font-family: 'Poppins', sans-serif;
+  margin: 0.5em 0;
 }
 
 h3 {
   font-size: 1em;
   font-family: 'Poppins', sans-serif;
   color: #213547;
+  margin: 0.5em 0;
 }
-
 
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
+  width: 100%;
 }
 
 .card {
@@ -30,19 +34,18 @@ h3 {
 }
 
 .linktree-container {
-  min-width: 300px;
+  width: 100%;
   max-width: 400px;
   margin: 0 auto;
   text-align: center;
-  font-family: Arial, sans-serif;
   background-color: #f5f2f7; /* Cor clara com um toque acinzentado */
   padding: 20px;
-  border-radius: 15px; /* Bordas arredondadas */
+  border-radius: 15px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .header .logo {
-  width: 150px;
+  width: 120px;
   border-radius: 50%;
   margin-bottom: 10px;
 }
@@ -60,8 +63,8 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 10px 0;
-  padding: 12px;
+  margin: 8px 0;
+  padding: 10px;
   color: white;
   text-decoration: none;
   background-color: #823d8b; /* Roxo para os botões */
@@ -76,4 +79,44 @@ h3 {
 
 .links a:hover {
   background-color: #66296b; /* Roxo mais escuro para hover */
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  body {
+    padding: 0 10px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .header .logo {
+    width: 100px;
+  }
+
+  .linktree-container {
+    padding: 15px;
+    max-width: 90%;
+  }
+
+  .links a {
+    padding: 8px;
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.2em;
+  }
+
+  .header .logo {
+    width: 80px;
+  }
+
+  .links a {
+    padding: 6px;
+    font-size: 0.9em;
+  }
 }

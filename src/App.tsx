@@ -16,7 +16,7 @@ function App() {
         <a href="https://www.instagram.com/domroxaoacai/" target="_blank" rel="noopener noreferrer">
           <FaInstagram className="icon" /> Instagram
         </a>
-        <a href="https://wa.me/5585992680560" target="_blank" rel="noopener noreferrer">
+        <a href="https://api.whatsapp.com/send?phone=5585992680560" target="_blank" rel="noopener noreferrer">
           <FaWhatsapp className="icon" /> WhatsApp
         </a>
       </div>
