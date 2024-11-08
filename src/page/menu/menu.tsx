@@ -1,5 +1,5 @@
 import  { useState } from 'react';
-import './Menu.css'; 
+import './menu.css'; 
 import { menuItems, acaiOptions } from '../../data/menu';
 
 
