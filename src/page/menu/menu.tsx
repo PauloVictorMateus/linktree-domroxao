@@ -1,5 +1,5 @@
 import  { useState } from 'react';
-import './Menu.css'; // Crie um arquivo CSS separado para estilos do Menu
+import './Menu.css'; 
 import { menuItems, acaiOptions } from '../../data/menu';
 
 
