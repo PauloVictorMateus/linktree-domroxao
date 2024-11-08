@@ -102,9 +102,9 @@ function Menu() {
         })
         .join('\n');
       
-      orderText = `Olá! Vim pelo site e gostaria de pedir:\n${items}\n\n`;
+      orderText = `Olá! Vim pelo site da Dom Roxão e gostaria de pedir:\n${items}\n\n`;
     } else {
-      orderText = `Olá! Vim pelo site e gostaria de pedir um Açaí Personalizado:
+      orderText = `Olá! Vim pelo site da Dom Roxão e gostaria de pedir um Açaí Personalizado:
 - Tamanho: ${customAcai.size?.name}
 - Frutas: ${customAcai.fruits.map(f => f.name).join(', ')}
 - Toppings: ${customAcai.toppings.map(t => t.name).join(', ')}
