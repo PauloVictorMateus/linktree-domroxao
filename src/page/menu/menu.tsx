@@ -241,9 +241,7 @@ ${orderDetails.complement ? `Complemento: ${orderDetails.complement}` : ''}`;
   };
 
   return (
-    <div className="menu-container">
-      <h1>Vamos a montagem do seu Açai</h1>
-      
+    <div className="menu-container">      
       {renderOrderTypeSelection()}
 
       {orderType === 'ready' && renderReadyAcais()}
