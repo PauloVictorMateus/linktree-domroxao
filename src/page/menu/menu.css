@@ -66,6 +66,18 @@
     background-color: #ccc; /* Cor quando desabilitado */
     cursor: not-allowed;
   }
+    
+  h2 {
+    color: #213547;
+  }
+
+  h3 {
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    color: #213547;
+    margin: 0.5em 0;
+  }
+
 
   .custom-acai-section {
     padding: 20px;
